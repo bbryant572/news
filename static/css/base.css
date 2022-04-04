@@ -1,3 +1,63 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+}
+
 .dropdown-item {
     color: black;
+}
+
+
+.home-container {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orangered;
+    font-size: 60px;
+}
+
+.about-container {
+    background-color: rgb(115, 28, 150);
+    min-height: auto;
+}
+
+
+.about-header {
+    text-align: center;
+    color: goldenrod;
+    
+}
+
+.article-header {
+    text-align: center;
+    color: rgb(148, 75, 26);
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text {
+    text-align: center;
+    margin-top: 10px;
+    color: goldenrod;
+    font-size: 24px;
+}
+
+.card-body {
+    background-color: antiquewhite;
 }

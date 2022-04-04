@@ -1,10 +1,11 @@
-
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}About me{% endblock title %}
 
 {% block content %}
-<h1>About the author</h1>
-<!-- <img src="{% static 'img/Me01.jpg' %}" class="profile-pic"> -->
-<p>My name is Brett Bryant. I am currently going to school for full stack development. </p>
+<div class="about-container">
+    <h1 class="about-header">About the author</h1>
+    <img src="/static/img/Me02.JPG" class="profile-pic" style="width: 45%;">
+    <p class="about-text">My name is Brett Bryant. I am currently going to school for full stack development. </p>  
+</div>
 {% endblock content %} 
