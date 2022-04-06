@@ -9,12 +9,13 @@
     <div class="card" style="padding: 10; margin: 10px; width: 60%;">
       <div class="card-body">
        <h3>
-        <!-- <a href="{% url 'article_detail' article.id %}">{{ article.title }}</a> -->
+        <a href="{% url 'article_detail' article.id %}">{{ article.title }}</a>
        </h3> 
         <h5 class="card-title">Post #{{ article.id }}</h5>
         <small>Category: {{ article.theme  }}</small>
         <h6 class="card-subtitle mb-2 text-muted">{{ article.title }}</h6>
         <p class="card-text">{{ article.text|truncatechars:512 }}</p>
+        <a href="{% url 'article_detail' article.id %}" class="btn btn-primary">Continue Reading...</a> |
       </div>
     </div>
   </div>
